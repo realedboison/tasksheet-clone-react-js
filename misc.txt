@@ -1,0 +1,114 @@
+// SCREENS
+      sm: 480
+      md: 768
+      lg: 976
+      xl: 1440px
+
+
+// index.css
+@layer base {
+  html {
+    font-family: Space Grotesk, system-ui, sans-serif;
+  }
+}
+
+// config-file
+const defaultTheme = require('tailwindcss/defaultTheme');
+
+
+// nav with menu
+import React from 'react';
+import { ReactComponent as Logo } from '../../resources/tasksheet-logo.svg';
+
+function MainNavigation() {
+  return (
+    <div>
+      {/* bg-white navbar */}
+      <nav className="p-5 bg-white navbar">
+        <div className="flex items-center justify-between max-w-screen-xl mx-auto">
+          <div className="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-10 h-10"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </div>
+
+          <div className="inline-flex items-center">
+            <Logo
+              style={{ width: '50px', height: '50px', marginRight: '5px' }}
+            />
+            <span className="hidden text-4xl sm:block lg:text-primaryPurple">
+              TaskSheet
+            </span>
+          </div>
+
+          <div className="w-10 h-10 rounded-full bg-primaryPurple"></div>
+        </div>
+      </nav>
+    </div>
+  );
+}
+
+export default MainNavigation;
+
+
+
+// main ------------------------------------
+
+      <section className="my-20 px-10">
+        {/* 1 */}
+        {/* border-2 border-solid border-red-500 -- lg:h-[200px] lg:w-[600px]*/}
+        {/* xl:h-[300px] xl:w-[800px] md:flex-col md:flex-wrap*/}
+        {/* <h2>  mb-4  </h2>     --- wrapper-height-h-[300px] --- md:flex-wrap md:w-auto md:flex-col-reverse md:flex-wrap  - lg:my-16* */}
+
+        <div className="mx-auto flex border-2 md:border-solid border-red-500 md:h-full md:w-full md:flex-col lg:my-16 lg:h-[12.8rem] lg:justify-between xl:my-24 xl:h-[18.3rem] xl:max-w-screen-xl xl:justify-between">
+          <div className="ml-10 flex flex-col justify-center border-2 border-solid border-blue-500 md:w-full lg:h-[12.5rem] lg:w-[37.5rem] xl:h-[18rem] xl:w-[50rem]">
+            <h2 className="mb-4 text-left text-2xl font-bold text-tonedBlack xl:text-[1.9rem]">
+              Create and manage workspaces.
+            </h2>
+            <p className="text-left text-base font-medium text-lighterGray xl:text-[1.3rem]">
+              Workspaces are the parent containers for related projects. You can
+              create a new workspace in 4 easy steps. The last one is even
+              optional.
+            </p>
+          </div>
+          {/* lg:h-[200px] lg:w-[200px] */}
+          <div className="mx-10 justify-center border-2 border-solid border-green-500 lg:w-[18.75rem] xl:w-[25rem]">
+            <img src={Sitting} alt="tasksheet" className="text-lg" />
+          </div>
+        </div>
+
+        {/* 2 */}
+        {/* border-2 border-solid border-blue-500 */}
+        {/* xl:h-[300px] xl:w-[800px]  wrapper-height-h-[300px] -- md:flex-row-reverse*/}
+
+        <div className="mx-auto flex justify-between border-2 border-solid border-red-500 md:pl-10 lg:h-[12.8rem] xl:my-24 xl:h-[18.3rem] xl:max-w-screen-xl">
+          <div className="mr-10 flex flex-col justify-center border-2 border-solid border-blue-500 lg:order-2 lg:h-[12.5rem] lg:w-[37.5rem] xl:order-2 xl:h-[18rem] xl:w-[50rem]">
+            <h2 className="mb-4 text-left text-2xl font-bold text-tonedBlack xl:text-[1.9rem]">
+              Invite other people into your workspace.
+            </h2>
+            <p className="text-left text-base font-medium text-lighterGray xl:text-[1.3rem]">
+              Need help with a task? The Invitation feature has got you! Invite
+              as many people as you want into your workspace so that you can
+              collaborate on tasks..
+            </p>
+          </div>
+
+          <div className="mr-10 flex justify-center border-2 border-solid border-green-500 lg:order-1 lg:w-[18.75rem] xl:order-1 xl:w-[25rem]">
+            {/* border-2 border-solid border-green-500 */}
+            <img src={Talking} alt="tasksheet" className="text-lg" />
+          </div>
+        </div>
+      </section>
+
+      // section -- ends --
