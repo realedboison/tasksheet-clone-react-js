@@ -12,7 +12,7 @@ function MainPage() {
       {/* main header */}
       <div className="mx-auto px-5 lg:max-w-screen-lg xl:mt-16">
         <div className="mx-auto max-w-[380px] md:max-w-lg lg:max-w-xl xl:max-w-3xl">
-          <h1 className="pt-36 text-center text-[30px] font-bold leading-tight md:pt-40 md:text-[2.5rem] lg:pt-44 lg:text-5xl xl:pt-64 xl:text-[65px]">
+          <h1 className="pt-36 text-center text-[35px] font-bold leading-tight md:pt-40 md:text-[2.5rem] lg:pt-44 lg:text-5xl xl:pt-[180px] xl:text-[60px]">
             An <span className="text-primaryPurple">open-source</span> project
             management tool built with
             <span className="text-primaryPurple"> software developers </span>
@@ -22,7 +22,7 @@ function MainPage() {
 
         <div className="mx-auto mb-10 mt-4 max-w-[380px] md:max-w-lg lg:mt-9 lg:mb-12 lg:max-w-xl xl:mb-14 xl:mt-8 xl:max-w-3xl">
           {/* xl:text-xl */}
-          <p className="text-center text-base font-medium text-lighterGray md:text-lg xl:text-xl ">
+          <p className="text-center text-[20px] font-bold text-lighterGray">
             Manage everything from personal projects to freelance projects with
             a simple, intuitive interface that gives you only the features
             needed to get the job done.
@@ -30,10 +30,13 @@ function MainPage() {
         </div>
 
         {/* button */}
-        <div className="mx-auto text-center lg:max-w-2xl  xl:max-w-4xl ">
-          <button className="h-12 w-36 rounded-lg bg-primaryPurple text-sm font-extrabold text-white hover:border-2 hover:border-none hover:bg-primaryPurpleShade lg:w-48 lg:text-xl xl:h-16 xl:w-48 xl:rounded-xl xl:text-xl">
+        <div className="mx-auto text-center lg:max-w-2xl xl:max-w-4xl ">
+          <a
+            href="#"
+            className="rounded-lg bg-primaryPurple py-4 px-12 text-sm font-extrabold text-white hover:border-2 hover:border-none hover:bg-primaryPurpleShade xl:rounded-xl xl:text-xl"
+          >
             Get Started
-          </button>
+          </a>
         </div>
       </div>
 
