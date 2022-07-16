@@ -19,7 +19,7 @@ function MainPage() {
             in mind.
           </h1>
         </div>
-        {/* paragraph -- md:mb-10 md:mt-4*/}
+
         <div className="mx-auto mb-10 mt-4 max-w-[380px] md:max-w-lg lg:mt-9 lg:mb-12 lg:max-w-xl xl:mb-14 xl:mt-8 xl:max-w-3xl">
           <p className="text-center text-lighterGray md:text-lg xl:text-xl xl:font-medium">
             Manage everything from personal projects to freelance projects with
@@ -27,13 +27,15 @@ function MainPage() {
             needed to get the job done.
           </p>
         </div>
+
         {/* button */}
         <div className="mx-auto text-center lg:max-w-2xl  xl:max-w-4xl ">
-          <button className="h-12 w-36 rounded-lg bg-primaryPurple text-sm font-extrabold text-white hover:border-2 hover:border-primaryPurple hover:bg-primaryPurpleShade lg:w-48 lg:text-xl xl:h-16 xl:w-48 xl:rounded-xl xl:text-xl">
+          <button className="h-12 w-36 rounded-lg bg-primaryPurple text-sm font-extrabold text-white hover:border-2 hover:border-none hover:bg-primaryPurpleShade lg:w-48 lg:text-xl xl:h-16 xl:w-48 xl:rounded-xl xl:text-xl">
             Get Started
           </button>
         </div>
       </div>
+
       {/* image */}
       <div className="mx-auto max-w-[450px] pt-16 pb-20 md:max-w-lg lg:max-w-xl xl:max-w-3xl">
         <img src={Image} alt="tasksheet" />
@@ -80,10 +82,7 @@ function MainPage() {
                 <span className="text-base text-lighterGray xl:text-lg ">
                   TaskSheet's source code is public. You're free to contribute
                   or use the code anyhow you deem fit.
-                  <div>
-                    {/* <br />
-                    <br /> */}
-                  </div>
+                  <div></div>
                 </span>
               </div>
             </div>
@@ -111,7 +110,6 @@ function MainPage() {
       </div>
 
       {/* main section */}
-      {/* 1111 */}
       <section className="my-20 px-5 lg:px-10 xl:px-10">
         <div className="mx-auto flex flex-col-reverse items-center justify-between md:w-[625px] lg:my-16 lg:w-11/12 lg:flex-row lg:text-left xl:my-24 xl:max-w-screen-xl xl:flex-row xl:text-left">
           <div className="details flex flex-col justify-center xl:w-2/3">
@@ -137,8 +135,7 @@ function MainPage() {
             />
           </div>
         </div>
-        {/* 2222 */}
-        {/* xl:mx-10 - mx-10 */}
+
         <div className="mx-auto my-20 flex flex-col-reverse items-center justify-between md:my-40 md:w-[625px] lg:my-16 lg:w-11/12 lg:flex-row-reverse xl:my-20 xl:max-w-screen-xl xl:flex-row-reverse ">
           <div className="details flex flex-col justify-center  xl:w-2/3">
             <div>
@@ -155,7 +152,7 @@ function MainPage() {
             </div>
           </div>
 
-          {/* lg:h-[200px] lg:w-[200px] *  --------  lg:w-[18.75rem] xl:w-[25rem] */}
+          {/* features*/}
           <div className="my-10 flex-row justify-center md:my-10 lg:mr-10">
             <img
               src={Talking}
@@ -164,8 +161,6 @@ function MainPage() {
             />
           </div>
         </div>
-
-        {/* 333 */}
 
         <div className="mx-auto flex flex-col-reverse items-center justify-between md:w-[625px] lg:my-16 lg:w-11/12 lg:flex-row lg:text-left xl:my-24 xl:max-w-screen-xl xl:flex-row xl:text-left">
           <div className="details flex flex-col justify-center xl:w-2/3">
@@ -195,7 +190,6 @@ function MainPage() {
       </section>
 
       {/* button */}
-
       <div className="mx-auto bg-lightestGray py-16 text-xl xl:max-w-full xl:py-20">
         <h3 className="text-center font-bold xl:text-3xl">
           You're still here? 😲
@@ -203,14 +197,12 @@ function MainPage() {
         <div className=" mt-10 text-center">
           <a
             href=""
-            className="text-md rounded-lg  bg-primaryPurple py-4 px-6 font-extrabold text-white hover:border-2 hover:border-primaryPurple hover:bg-primaryPurpleShade sm:px-8 sm:text-xl md:px-8 lg:w-48 lg:px-8 lg:text-xl xl:h-16 xl:w-48 xl:rounded-xl xl:px-8 xl:text-xl"
+            className="text-md  rounded-lg  bg-primaryPurple py-4 px-6 font-extrabold text-white hover:border-2 hover:border-none hover:bg-primaryPurpleShade sm:px-8 sm:text-xl md:px-8 lg:w-48 lg:px-8 lg:text-xl xl:h-16 xl:w-48 xl:rounded-xl xl:px-8 xl:text-xl"
           >
             Get Started Already 🏃‍♂️💨
           </a>
         </div>
       </div>
-
-      {/* footer */}
     </main>
   );
 }

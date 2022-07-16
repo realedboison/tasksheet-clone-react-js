@@ -26,7 +26,7 @@ function Footer() {
                 </svg>
               </div>
 
-              <span className="cursor-pointer pl-1 text-3xl font-extrabold text-white sm:block lg:text-4xl">
+              <span className="cursor-pointer pl-1 text-3xl font-extrabold text-white sm:block lg:text-3xl xl:text-3xl">
                 TaskSheet
               </span>
             </div>

@@ -9,8 +9,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        primaryPurpleShade: 'rgb(33,80,214)',
-        primaryPurple: 'rgb(62, 104,225)',
+        primaryPurpleShade: 'rgb(73,86,255)',
+        primaryPurple: 'rgb(92,104,255)',
         primaryPurpleTint: 'rgb(238, 240, 254)',
         primaryPurpleTint_two: 'rgb(197,210,246)',
 
