@@ -12,7 +12,7 @@ function MainPage() {
       {/* main header */}
       <div className="mx-auto px-5 lg:max-w-screen-lg xl:mt-16">
         <div className="mx-auto max-w-[380px] md:max-w-lg lg:max-w-xl xl:max-w-3xl">
-          <h1 className="pt-28 text-center text-[30px] font-bold leading-tight md:pt-40 md:text-[2.5rem]  lg:pt-40 lg:text-5xl xl:pt-40 xl:text-6xl">
+          <h1 className="pt-36 text-center text-[30px] font-bold leading-tight md:pt-40 md:text-[2.5rem] lg:pt-44 lg:text-5xl xl:pt-64 xl:text-[65px]">
             An <span className="text-primaryPurple">open-source</span> project
             management tool built with
             <span className="text-primaryPurple"> software developers </span>
@@ -21,7 +21,8 @@ function MainPage() {
         </div>
 
         <div className="mx-auto mb-10 mt-4 max-w-[380px] md:max-w-lg lg:mt-9 lg:mb-12 lg:max-w-xl xl:mb-14 xl:mt-8 xl:max-w-3xl">
-          <p className="text-center text-lighterGray md:text-lg xl:text-xl xl:font-medium">
+          {/* xl:text-xl */}
+          <p className="text-center text-base font-medium text-lighterGray md:text-lg xl:text-xl ">
             Manage everything from personal projects to freelance projects with
             a simple, intuitive interface that gives you only the features
             needed to get the job done.

@@ -34,7 +34,7 @@ function MainNavigation() {
           <div className="flex items-center gap-2 ">
             <a
               href="#"
-              className=" rounded-lg border border-solid border-primaryPurple py-2 px-6 text-sm font-extrabold text-primaryPurple hover:border-primaryPurpleShade hover:bg-primaryPurpleTint hover:text-primaryPurpleShade"
+              className="rounded-lg border border-solid border-primaryPurple py-2 px-6 text-sm font-extrabold text-primaryPurple hover:border-primaryPurpleShade hover:bg-primaryPurpleTint hover:text-primaryPurpleShade"
             >
               Log In
             </a>
