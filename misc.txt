@@ -4,6 +4,9 @@
       lg: 976
       xl: 1440px
 
+sm:w-[540px] md:w-[740px] lg:w-[960px] xl:w-[1140px] 
+
+
 
 // index.css
 @layer base {
@@ -14,6 +17,11 @@
 
 // config-file
 const defaultTheme = require('tailwindcss/defaultTheme');
+
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px',
 
 
 // nav with menu

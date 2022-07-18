@@ -6,7 +6,6 @@ import MainPage from './MainPage';
 function Layouts() {
   return (
     <div>
-      {/* <Login /> */}
       <MainNavigation />
       <MainPage />
       <Footer />

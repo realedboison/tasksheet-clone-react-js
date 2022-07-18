@@ -4,14 +4,14 @@ function Footer() {
       <footer class="footer">
         <nav className=" bg-primaryPurple py-10 px-4 md:px-8 lg:px-12 xl:px-10">
           {/* nav items */}
-          <div className="mx-auto flex flex-col items-center justify-between gap-y-5 md:flex-row lg:max-w-screen-lg  xl:max-w-screen-xl ">
+          <div className="mx-auto flex flex-col items-center justify-between gap-y-10 sm:max-w-[540px] md:max-w-[540px] lg:max-w-[740px] lg:flex-row  xl:max-w-[1140px] xl:flex-row">
             {/* logo */}
             <div className="flex cursor-pointer items-center ">
               <div>
                 <svg
                   height="67"
                   viewBox="0 0 70 67"
-                  className="h-12 sm:h-11 md:h-12 xl:w-16"
+                  className="h-10 sm:h-8 md:h-10 xl:w-14"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -34,8 +34,9 @@ function Footer() {
             {/* buttons */}
             <div className="">
               <a
-                href="#"
-                className=" border-b-2 border-solid border-white text-2xl font-bold text-white"
+                target="_blank"
+                href="https://github.com/realedboison/tasksheet-clone-react-js"
+                className=" border-b-2 border-solid border-white text-xl font-bold text-white"
               >
                 Get the source code
               </a>

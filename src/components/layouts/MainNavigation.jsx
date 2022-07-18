@@ -1,16 +1,16 @@
 function MainNavigation() {
   return (
     <div>
-      <nav className="navbar fixed top-0 left-0 right-0 z-10 bg-white py-5 px-4 md:px-8 lg:px-12 xl:px-10">
+      <nav className="navbar fixed top-0 left-0 right-0 z-10 bg-white py-5 px-3">
         {/* nav items */}
-        <div className="mx-auto flex items-center justify-between lg:max-w-screen-lg xl:flex xl:max-w-screen-xl ">
+        <div className="mx-auto flex items-center justify-between sm:max-w-[540px] md:max-w-[540px] lg:max-w-[740px] xl:max-w-[1140px]">
           {/* logo */}
           <div className="flex cursor-pointer items-center ">
             <div>
               <svg
                 height="67"
                 viewBox="0 0 70 67"
-                className="h-12 sm:h-8 md:h-11 xl:w-16"
+                className="h-10 sm:h-8 md:h-10 xl:w-14"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -25,7 +25,7 @@ function MainNavigation() {
               </svg>
             </div>
 
-            <span className="hidden cursor-pointer pl-1 text-2xl font-extrabold text-primaryPurple sm:block lg:text-3xl xl:text-3xl">
+            <span className="hidden cursor-pointer select-none pl-1 text-3xl font-bold text-primaryPurple lg:block xl:block xl:text-3xl">
               TaskSheet
             </span>
           </div>
