@@ -54,7 +54,7 @@ function MainPage() {
           <div className="">
             <div className="mx-auto flex flex-wrap items-start justify-evenly text-center sm:w-[540px] md:w-[740px] lg:w-[960px] xl:w-[1140px]">
               <div className="flex">
-                <div className="mx-auto w-9/12 xl:w-[320px]">
+                <div className="mx-auto w-10/12 xl:w-[320px]">
                   <img
                     src={Easy}
                     alt="tasksheet"
@@ -73,7 +73,7 @@ function MainPage() {
               </div>
 
               <div className="flex">
-                <div className="mx-auto w-9/12 lg:w-8/12 xl:w-[320px]">
+                <div className="mx-auto w-10/12 lg:w-8/12 xl:w-[320px]">
                   <img
                     src={Open}
                     alt="tasksheet"
@@ -92,7 +92,7 @@ function MainPage() {
               </div>
 
               <div className="flex">
-                <div className="mx-auto w-9/12 xl:w-[320px]">
+                <div className="mx-auto w-10/12 xl:w-[320px]">
                   <img
                     src={Free}
                     alt="tasksheet"
@@ -116,7 +116,7 @@ function MainPage() {
 
       {/* main section */}
       <div className="mx-auto xl:max-w-[1140px] ">
-        <section className="my-20 mx-2">
+        <section className="my-20 mx-4">
           <div className="mx-auto flex flex-col-reverse items-center justify-between md:w-[625px] lg:my-16  lg:w-11/12 xl:h-[300px] xl:w-full xl:flex-row">
             <div className="details flex flex-col justify-center md:w-[550px] lg:w-7/12 xl:w-[690px]">
               <div>
