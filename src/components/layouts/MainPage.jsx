@@ -54,7 +54,7 @@ function MainPage() {
           <div className="">
             <div className="mx-auto flex flex-wrap items-start justify-evenly text-center sm:w-[540px] md:w-[740px] lg:w-[960px] xl:w-[1140px]">
               <div className="flex">
-                <div className="mx-auto w-7/12 xl:w-[320px]">
+                <div className="mx-auto w-9/12 xl:w-[320px]">
                   <img
                     src={Easy}
                     alt="tasksheet"
@@ -73,7 +73,7 @@ function MainPage() {
               </div>
 
               <div className="flex">
-                <div className="mx-auto w-7/12 lg:w-8/12 xl:w-[320px]">
+                <div className="mx-auto w-9/12 lg:w-8/12 xl:w-[320px]">
                   <img
                     src={Open}
                     alt="tasksheet"
@@ -92,7 +92,7 @@ function MainPage() {
               </div>
 
               <div className="flex">
-                <div className="mx-auto w-7/12 xl:w-[320px]">
+                <div className="mx-auto w-9/12 xl:w-[320px]">
                   <img
                     src={Free}
                     alt="tasksheet"
