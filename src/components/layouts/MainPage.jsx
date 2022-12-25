@@ -1,6 +1,7 @@
 import Easy from '../../resources/easy.svg';
 import Free from '../../resources/free.svg';
 import Image from '../../resources/hero.png';
+import { Link } from 'react-router-dom';
 import Open from '../../resources/open.svg';
 import Sitting from '../../resources/sitting.svg';
 import Talking from '../../resources/talking.svg';
@@ -30,12 +31,12 @@ function MainPage() {
 
         {/* button */}
         <div className="mx-auto pt-5 text-center">
-          <a
-            href="#"
+          <Link
+            to="/sign-up"
             className="rounded-xl bg-primaryPurple py-4 px-16 text-xl font-bold text-white hover:border-2 hover:border-none  hover:bg-primaryPurpleShade xl:text-xl"
           >
             Get Started
-          </a>
+          </Link>
         </div>
       </div>
 
@@ -201,12 +202,12 @@ function MainPage() {
           You're still here? 😲
         </h3>
         <div className="mt-10 text-center">
-          <a
-            href=""
+          <Link
+            to="/sign-up"
             className="rounded-xl bg-primaryPurple  py-4 px-8 text-xl font-bold text-white hover:border-2 hover:border-none hover:bg-primaryPurpleShade "
           >
             Get Started Already 🏃‍♂️💨
-          </a>
+          </Link>
         </div>
       </div>
     </main>

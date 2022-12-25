@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function MainNavigation() {
   return (
     <div>
@@ -32,19 +34,17 @@ function MainNavigation() {
 
           {/* buttons */}
           <div className="flex items-center gap-2 ">
-            <a
-              href="#"
-              className="rounded-lg border border-solid border-primaryPurple py-2 px-6 text-sm font-extrabold text-primaryPurple hover:border-primaryPurpleShade hover:bg-primaryPurpleTint hover:text-primaryPurpleShade"
-            >
-              Log In
-            </a>
+            <Link to="/sign-in">
+              <a className="rounded-lg border border-solid border-primaryPurple py-2 px-6 text-sm font-extrabold text-primaryPurple hover:border-primaryPurpleShade hover:bg-primaryPurpleTint hover:text-primaryPurpleShade">
+                Sign In
+              </a>
+            </Link>
 
-            <a
-              href="#"
-              className="rounded-lg border border-solid border-primaryPurple bg-primaryPurple py-2 px-6 text-sm font-extrabold text-white hover:bg-primaryPurpleShade sm:rounded-lg"
-            >
-              Sign Up
-            </a>
+            <Link to="/sign-up">
+              <a className="rounded-lg border border-solid border-primaryPurple bg-primaryPurple py-2 px-6 text-sm font-extrabold text-white hover:bg-primaryPurpleShade sm:rounded-lg">
+                Sign Up
+              </a>
+            </Link>
           </div>
         </div>
       </nav>
