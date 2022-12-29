@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import ForgotPassword from './components/layouts/ForgotPassword';
 import Home from './pages/Home';
 import LandingPage from './components/layouts/LandingPage';
+import NewTask from './pages/NewTask';
 import Notifications from './pages/Notifications';
 import Profile from './components/ui/Profile';
 import SignIn from './components/ui/SignIn';
@@ -31,6 +32,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/workspaces" element={<Workspaces />} />
           <Route path="/notifications" element={<Notifications />} />
+          <Route path="/new-task" element={<NewTask />} />
         </Routes>
       </Router>
     </>

@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import LogIn from '../../resources/login.svg';
 import Password from '../../resources/password.svg';
 import { SubmitLoader } from '../../spinners/SubmitLoader';
-import User from '../../resources/user.svg';
 import { signIn } from '../schemas/signIn';
 import { useState } from 'react';
 
@@ -22,6 +21,7 @@ const initialValues = {
 
 function SignIn() {
   const [showPassword, setShowPassword] = useState(false);
+
   return (
     <div className="bg-lightestGray">
       <div className="mx-auto mb-20">
@@ -171,7 +171,7 @@ function SignIn() {
 
                         <div className="my-10 text-right text-lg font-medium text-primaryPurple lg:mr-3 xl:mr-3">
                           <Link to="/forgot-password">
-                            <a>Forgot Password ?</a>
+                            <a href="#!">Forgot Password ?</a>
                           </Link>
                         </div>
 
@@ -189,7 +189,6 @@ function SignIn() {
                         </div>
                       </div>
                     </div>
-                    {/* </div> */}
                   </Form>
                 );
               }}

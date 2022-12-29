@@ -151,6 +151,7 @@ function HomeHeader() {
             </div>
           </div>
           {/* logo */}
+
           <div className="flex cursor-pointer items-center">
             <div>
               <svg
@@ -226,6 +227,7 @@ function HomeHeader() {
             </NavLink>
           </div>
 
+          {/* border-2 border-solid border-red-500 */}
           {/* drop down */}
           <div className="relative" id="dropDownMenu">
             <div className="flex items-center gap-2 ">
